@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Azure.WebJobs.Host;
 using Newtonsoft.Json;
 
-namespace mokumoku.normal_parrot
+namespace mokumoku.normal_parrot_cl
 {
     public static class normal_parrot
     {
