@@ -9,9 +9,9 @@ using Newtonsoft.Json;
 
 namespace mokumoku.normal_parrot_cl
 {
-    public static class normal_parrot
+    public static class normal_parrot_cl
     {
-        [FunctionName("normal_parrot")]
+        [FunctionName("normal_parrot_cl")]
         public static IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)]HttpRequest req, TraceWriter log)
         {
             log.Info("C# HTTP trigger function processed a request.");
